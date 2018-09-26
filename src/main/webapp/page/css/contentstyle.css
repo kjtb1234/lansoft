@@ -1,0 +1,135 @@
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1; /*IE/7/6*/
+}
+
+/* 隐藏元素 */
+.hidden {
+	display: none;
+}
+
+button {
+	background: #1f93ee;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	width: 125px;
+	height: 30px;
+	border: none;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.item:hover {
+	background: #1f93ee;
+}
+
+label {
+	font-size: 14px;
+}
+
+#officeContent label {
+	font-size: 16px;
+}
+
+.sys4 {
+	margin-top: 15px;
+	width: 1000px;
+	height: 40px;
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}
+
+.item1 {
+	height: 35px;
+	width: 100px !important;
+	background-color: #1f93ee;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 6px;
+	border: none;
+}
+
+.even {
+	width: 50%;
+	text-align: center;
+}
+
+.odd {
+	width: 50%;
+	text-align: center;
+}
+
+.select {
+	min-width: 200px;
+	/*width: 100%;*/
+	font-family: "微软雅黑";
+}
+
+.content {
+	width: 90%;
+}
+
+/* 新增样式模板 */
+.addmodule {
+	width: 80%;
+	font-size: 14px;
+}
+
+.addmodule li {
+	width: 50%;
+	margin: 5px 0;
+	float: left;
+}
+
+strong {
+	color: red;
+}
+
+/* 修改密码 界面 */
+.boxmodule {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.boxtop {
+	line-height: 40px;
+	text-align: left;
+	color: #00a1ff;
+	border-bottom: 2px solid #ccc;
+	position: relative;
+}
+
+.boxtop::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 2px;
+	background: #00a1ff;
+	bottom: -2px;
+	left: 0;
+}
+
+.boxmodule table td input {
+	width: 200px;
+}

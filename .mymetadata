@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="lansoft"
+  id="myeclipse.1537406375481"
+  context-root="/lansoft"
+  j2ee-spec="1.7"
+  archive="lansoft.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

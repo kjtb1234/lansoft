@@ -1,0 +1,248 @@
+/* 按钮 */
+.btn {
+  width: 90%;
+  line-height: 2rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  margin: 0 auto;
+  background: #2690ff;
+  text-align: center;
+}
+/* 文级 单选框样式 */
+.level {
+  height: 2rem;
+  line-height: 1rem;
+  padding: 0.5rem;
+  background: #fff;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}
+.level li {
+  margin-right: 1rem;
+}
+.level li:nth-child(2).active {
+  color: limegreen;
+}
+.level li:nth-child(3).active {
+  color: #ff9801;
+}
+.level li:nth-child(4).active {
+  color: #c72759;
+}
+.level .help {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+.level .help img {
+  width: 100%;
+  height: 100%;
+}
+.level label span {
+  margin-right: 0.3rem;
+}
+.level input:checked label span {
+  color: #ff9801;
+}
+.img-view {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+}
+.img-view h4 {
+  line-height: 2rem;
+}
+.img-view h4 span {
+  font-size: 0.6rem;
+  color: #d60043;
+  float: right;
+}
+.img-view .preview {
+  margin: 0 0.5rem 1rem;
+  border: 1px dashed #ededed;
+}
+.img-view .preview li {
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  float: left;
+  height: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+.img-view .preview li img {
+  height: 100%;
+  max-width: 5rem;
+}
+.img-view .preview label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body {
+  background: #f5f5f9;
+  font-size: 0.8rem;
+}
+.times {
+  font-size: 0.6rem;
+  color: #999;
+  margin: 0.5rem 1rem;
+}
+.times a {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: -0.2rem;
+}
+.times a img {
+  width: 100%;
+  height: 100%;
+}
+/* 签呈标签 */
+.signature {
+  padding: 1rem;
+  font-size: 0.8rem;
+  margin: 0.5rem auto;
+  background: #fff;
+  /* 主旨 */
+  /* 签呈正文：理由及建议 */
+  /* 上传附件 */
+}
+.signature .subject input {
+  width: 80%;
+  color: #666;
+  padding: 0.3rem;
+  border-bottom: 1px solid #ccc;
+}
+.signature .subject p {
+  color: #c72759;
+}
+.signature .text-box {
+  width: 100%;
+  height: 16rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  position: relative;
+}
+.signature .text-box textarea {
+  width: 100%;
+  height: 15rem;
+  padding: 0.5rem;
+  font-family: MicroSoft YaHei;
+  font-size: 0.7rem;
+  color: #5A5A5A;
+  line-height: 1rem;
+}
+.signature .text-box p {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.1rem;
+  margin-right: 0.5rem;
+}
+.signature .text-box .count > span {
+  color: #d60043;
+}
+.signature .annex label {
+  display: block;
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.signature .annex label img {
+  height: 100%;
+}
+ul.level {
+  padding: 0.5rem 0;
+}
+/* 生成签呈按钮 */
+.generate {
+  color: #fff;
+  text-align: center;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background: #3f82ff;
+}
+/*************** 生成签呈 **************/
+.tab {
+  position: relative;
+  /* 签呈致 来自 */
+  /* 签呈标题 */
+  /* 签呈内容 */
+  /* 主旨 */
+  /* 文级 */
+  /* 温馨提示 */
+}
+.tab .send {
+  border-bottom: 1px solid #111;
+  margin: 0 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.tab .topic {
+  width: 50%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.tab .topic::after,
+.tab .topic::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #111111;
+  position: absolute;
+  bottom: 0;
+}
+.tab .topic::before {
+  bottom: 0.1rem;
+}
+.tab .main-body {
+  border: 1px solid #aaa;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.tab .title {
+  border-bottom: 1px solid #aaa;
+  padding: 0.5rem;
+}
+.tab .rank {
+  text-align: center;
+  color: #000;
+  border: 1px solid #000;
+  padding: 0.3rem;
+  position: absolute;
+  right: 0;
+  top: -0.4rem;
+}
+.tab .reason > h4 {
+  margin: 0.3rem;
+}
+.tab .reason > p {
+  color: #666;
+  margin: 0.5rem;
+  word-wrap: break-word;
+}
+.tab .applicant {
+  margin-right: 2rem;
+}
+.tab .prompt {
+  margin-top: 0.5rem;
+  color: #c72759;
+}
+/* 弹出层按钮 */
+.layui-m-layerbtn {
+  position: absolute !important;
+}
+.layui-m-layercont {
+  padding: 20px 20px !important;
+}
